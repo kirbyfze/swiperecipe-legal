@@ -12,7 +12,7 @@
 </head>
 <body>
   <h1>Privacy Policy — SwipeRecipe</h1>
-  <p><strong>Last updated:</strong> March 2026</p>
+  <p><strong>Last updated:</strong> April 30, 2026</p>
 
   <h2>Overview</h2>
   <p>SwipeRecipe ("we", "our", "the app") is a recipe discovery app. We take your privacy seriously. This policy explains what data we collect, how we use it, and your rights.</p>
@@ -25,7 +25,7 @@
     <li><strong>Swipe history</strong> — recipes you've liked, passed, or hidden</li>
     <li><strong>Saved recipes</strong> — your personal collection</li>
     <li><strong>Meal plans</strong> — your weekly dinner planner</li>
-    <li><strong>Pair session</strong> — a partner code for Pair Mode (ephemeral, deleted after session)</li>
+    <li><strong>Pair session preferences</strong> — your local Pair Mode state (ephemeral)</li>
   </ul>
   <h3>Data we do NOT collect:</h3>
   <ul>
@@ -38,11 +38,10 @@
 
   <h2>Third-Party Services</h2>
   <p><strong>TheMealDB:</strong> Recipe data is fetched from <a href="https://themealdb.com">themealdb.com</a>. Requests include no personally identifiable information.</p>
-  <p><strong>Supabase:</strong> Pair Mode sessions use Supabase for real-time matching. Session codes and swipe results are stored temporarily and deleted after 24 hours. No personal information is stored.</p>
-  <p><strong>Google AdMob (Free tier only):</strong> The free tier displays ads via Google AdMob. AdMob may use device identifiers for ad personalisation, subject to your App Tracking Transparency (ATT) consent. Premium users see no ads.</p>
+  <p><strong>Pair Mode (optional feature).</strong> When you create or join a Pair Mode session, the following data is sent to and stored on our backend (Supabase): the session's 6-character code, the username you typed (free-text, not linked to any account), and the dish IDs of recipes you swipe on while a session is active. This data is used solely to coordinate matches between you and your partner. Sessions are inactive after you leave and the data is retained for at most 30 days. We do not link this data to your device, your Apple ID, or any external identity. You can stop collection at any time by tapping Leave Session.</p>
 
   <h2>Data Retention</h2>
-  <p>All personal data lives on your device. Deleting the app removes all local data. Pair session data on our servers is automatically deleted after 24 hours.</p>
+  <p>All personal data lives on your device. Deleting the app removes all local data. Pair Mode session data on our servers is retained for at most 30 days after the session becomes inactive, then automatically deleted.</p>
 
   <h2>Children</h2>
   <p>SwipeRecipe is rated 4+ and contains no content inappropriate for children. We do not knowingly collect data from children under 13.</p>
